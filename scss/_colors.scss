@@ -1,0 +1,43 @@
+$clr-primary-700: hsl(158, 36%, 37%);
+$clr-primary-200: hsl(30, 38%, 92%);
+
+$clr-neutral-600: hsl(212, 21%, 14%);
+$clr-neutral-400: hsl(228, 12%, 48%);
+$clr-neutral-100: hsl(0, 0%, 100%);
+
+$ft-primary: "Montserrat", sans-serif;
+$ft-secondary: "Fraunces", serif;
+
+$ft-weight-400: 500;
+$ft-weight-700: 700;
+
+.text-primary-700 {
+  color: $clr-primary-700;
+}
+.text-primary-200 {
+  color: $clr-primary-200;
+}
+.text-neutral-600 {
+  color: $clr-neutral-600;
+}
+.text-neutral-400 {
+  color: $clr-neutral-400;
+}
+.text-neutral-100 {
+  color: $clr-neutral-100;
+}
+
+.font-primary {
+  font-family: $ft-primary;
+}
+.font-secondary {
+  font-family: $ft-secondary;
+}
+
+.fw-400 {
+  font-weight: $ft-weight-400;
+}
+
+.fw-700 {
+  font-weight: $ft-weight-700;
+}
